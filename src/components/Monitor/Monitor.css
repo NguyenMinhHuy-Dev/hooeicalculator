@@ -1,0 +1,21 @@
+.monitor { 
+    height: 100px;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 90%);
+    padding: 20px;
+}
+
+.input {
+    outline: none;
+    border: none;
+    height: 100%;
+    background-color: transparent;
+    width: 100%;
+    text-align: right;
+    font-size: 40px;
+    color: #fff;
+}
+
+.input::placeholder {
+    color: #fff;
+}

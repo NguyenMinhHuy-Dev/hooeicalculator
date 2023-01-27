@@ -1,0 +1,9 @@
+.form {
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+    background-color: inherit;
+    box-shadow: #747d8c 0px 22px 70px 4px;
+    overflow: hidden;
+    /* padding: 20px; */
+}

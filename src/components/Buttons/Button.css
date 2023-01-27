@@ -1,0 +1,46 @@
+.buttons {
+    /* width: 100%;   */
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 5px;
+    padding: 5px;
+}
+
+.btn { 
+    height: 70px;
+    font-size: 24px;
+    outline: none;
+    border: none;
+    background: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #000;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.exp { 
+    color: #784BA0;
+}
+
+.clr {
+    color: #ff4757;
+}
+.equal {
+    background-color: #784BA0;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #784BA0;
+    color: #fff;
+    transition: 0.3s;
+}
+ 
+.clr:hover {
+    background-color: #ff4757;
+}
+
+.equal:hover {
+    background-color: #54346f;
+}
